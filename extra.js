@@ -9,8 +9,6 @@ document.write(text_.slice(11, 38));
 //extra 2
 
 
-
-
 var fruits = ["apple","banana","kiwi"];
 console.log(fruits);
 

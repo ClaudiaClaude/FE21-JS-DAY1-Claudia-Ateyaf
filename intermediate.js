@@ -6,6 +6,8 @@
 
 var fruits = ["apple", "banana", "kiwi"];
 
+console.log(fruits);
+
 fruits.push("orange");
 
 console.log(fruits);
@@ -26,6 +28,7 @@ console.log(animals);
 
 // animals[x] = animals.splice(y, 1, animals[x])[0];
 // console.log(animals); 
+
 // animals.unshift("cat");
 // console.log(animals);
 
@@ -47,8 +50,8 @@ console.log(animals);
 
 // INTERMEDIATE 2 SOLUTION 3 -----------------------------
 
-// var a = animals[2];
-// var b = animals [0];
+// // var a = animals[2];
+// // var b = animals [0];
 // animals= [animals[2], animals[1], animals[0]];
 // console.log(animals);
 
