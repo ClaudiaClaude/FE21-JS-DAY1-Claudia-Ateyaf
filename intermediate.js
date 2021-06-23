@@ -1,4 +1,4 @@
-// INTERMEDIATE EX.1
+// INTERMEDIATE EX.1 ----------------------------------------
 
 // var cars = ["Tesla", "Audi", "Reanault", "Volvo", "Mazda", "Fiat", "Ferrari"];
 
@@ -16,55 +16,53 @@ console.log(fruits);
 
 
 
-// INTERMEDIATE EX.2
+// INTERMEDIATE EX.2 -----------------------------------
 
 var animals =["monkey", "horse", "dog"], x=0, y=2;
 console.log(animals);
 
 
-/*INTERMEDIATE SOLUTION 1 ---
+// INTERMEDIATE 2 SOLUTION 1 ---------------------------   
 
 // animals[x] = animals.splice(y, 1, animals[x])[0];
 // console.log(animals); 
-animals.unshift("cat");
-console.log(animals);
-End ----INTERMEDIATE SOLUTION 3*/
+// animals.unshift("cat");
+// console.log(animals);
+
+// End ----INTERMEDIATE 2 SOLUTION 1 
+// INTERMEDIATE 2 SOLUTION 2       ----------------------
+
+// var a = animals[2];
+// var b = animals [0];
+// animals= [a, animals[1], b];
+
+// console.log(animals);
+
+// animals.unshift("cat");
+
+// console.log(animals);
+
+//End ----INTERMEDIATE 2 SOLUTION 2
 
 
-// INTERMEDIATE SOLUTION 2
+// INTERMEDIATE 2 SOLUTION 3 -----------------------------
 
-var a = animals[2];
-var b = animals [0];
-animals= [a, animals[1], b];
+// var a = animals[2];
+// var b = animals [0];
+// animals= [animals[2], animals[1], animals[0]];
+// console.log(animals);
 
-console.log(animals);
+// animals.unshift("cat");
+// console.log(animals);
 
-animals.unshift("cat");
+// End ----INTERMEDIATE 2 SOLUTION 3
+// INTERMEDIATE 2 SOLUTION 4 ------------------------------
 
-console.log(animals);
 
-
-/*INTERMEDIATE SOLUTION 3 ----
-
-var a = animals[2];
-var b = animals [0];
-animals= [animals[2], animals[1], animals[0]];
-console.log(animals);
-
-// animals.slice(0, 2);
-
-// animals.splice(1, 2, "dog");
-// console.log(animals); 
-animals.unshift("cat");
-console.log(animals);
-
-End ----INTERMEDIATE SOLUTION 4 */
-
-/*INTERMEDIATE SOLUTION 3 ----
 animals.pop();
 animals.shift();
 
-console.log(animals);
+// console.log(animals);
 
 animals.push("monkey");
 animals.unshift("dog");
@@ -74,10 +72,11 @@ animals.unshift("cat");
 
 console.log(animals);
 
-End ----INTERMEDIATE SOLUTION 4 */
+
+// End ----INTERMEDIATE 2 SOLUTION 4
 
 
-// INTERMEDIATE EX.3
+// INTERMEDIATE EX.3-----------------------------------------
 
 var fruits2 = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
 
